@@ -149,6 +149,7 @@ The backend is written in Go. You can use the following commands to manage the d
 ### Frontend
 
 The frontend is written with TypeScript and React. You can use the following commands to manage the development lifecycle:
+npm install
 
 - `yarn install`: install the dependencies
 - `yarn start`: start the frontend in development mode, with live reload

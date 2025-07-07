@@ -15,7 +15,7 @@ ifeq ($(RELEASE), 1)
 endif
 GO_LDFLAGS:=-ldflags="$(GO_LDFLAGS)"
 
-DOCKER_IMAGE=ghcr.io/smocker-dev/smocker
+DOCKER_IMAGE=keauw/smocker
 
 # See: https://docs.docker.com/engine/reference/commandline/tag/#extended-description
 # A tag name must be valid ASCII and may contain lowercase and uppercase letters, digits, underscores, periods and dashes.
