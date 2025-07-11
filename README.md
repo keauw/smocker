@@ -199,3 +199,12 @@ Then, start Smocker with TLS enabled, using your generated certificate:
 ## Contributors
 
 - [Amanda Yoshiizumi (mandyellow)](https://github.com/mandyellow): thank you for your awesome logo!
+
+
+
+## local build
+copy build/client from https://github.com/smocker-dev/smocker/releases/latest/download/smocker.tar.gz
+run `make VERSION=1.0.0 build` and then test with http://localhost:8081
+run `make VERSION=1.0.0 build-docker`  to create docker image
+run `docker push keauw/smocker:1.0.0`  
+
