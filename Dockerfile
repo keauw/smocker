@@ -1,5 +1,5 @@
-ARG GO_VERSION=1.22
-FROM golang:${GO_VERSION}-alpine AS build-backend
+ARG GO_VERSION=1.24.5
+FROM golang:${GO_VERSION}-alpine3.21 AS build-backend
 RUN apk add --no-cache make
 ARG VERSION=snapshot
 ARG COMMIT
